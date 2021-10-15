@@ -1,0 +1,63 @@
+div{background-color: salmon;
+  
+    background-size: cover;
+}
+body{
+    margin:0;
+    padding:13%;
+    background-image: url("picc.jpg");
+}
+.login-form
+{
+    background-color:gray;
+
+    width: 380px;
+    height: 350px;
+    margin:0;
+  position:relative;
+  padding: 3%;
+  top: 25%;
+left: 25%;
+transform: (-50,-50);
+  box-sizing: border-box;
+}
+.login-form img{
+    width:310px;
+    height: 50px;
+
+
+}
+.login-form input[type="button"]{
+    border:none;
+    outline:none;
+    height: 40px;
+    background-color: indianred;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+}
+h1{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+text-align:center;
+    font-size=40%;
+}
+p{
+    margin:0;
+    padding: 0;
+   
+    font-size=18px;
+}
+input{
+    width:50%;
+}
+.login-form input[type="text"], input[type="password"]{
+border:none;
+outline:none;
+font-size=18px;
+border-bottom:1px solid black;
+background:transparent;
+
+
+}
